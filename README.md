@@ -50,3 +50,17 @@ To create a code using a interval, we need to follow the recipe:
 > ;; Template rules used:<br>
 > ;;  - atomic non-distinct: Integer[0, 10]<br>
 
+## HOW TO FORM A INTERVAL
+
+> (define (fn-for-countdown cd)<br>
+>  (... cd))<br>
+
+## PROBLEM
+
+Imagine that you are designing a program to manage tickets sales for a theatre. (Also imagine that the theatre is perfectly rectangular in shape!). Design a data definition to represent a seat number in a row, where each row has 32 seats. (Just the seat number, not the row number.)
+
+## SOLUTION
+
+> (define (fn-for-seat-num sn)<br>
+>  (... sn))<br>
+
