@@ -27,4 +27,26 @@ What you'll learn:
 
 ## MODULE 2: How To Design Data (HTDD): INTERVAL
 
-In the third lesson from **module 2: How to Design Data - Atomic Non-Distinct**, we learn how to Design Data (HtDD recipe) and Data Driven Templates recipes.
+In this lesson from **module 2: How to Design Data - Interval**, we learn how to Design Data (HtDD recipe) to create interval.
+
+### WHEN DO I USE INTERVAL?
+
+Use an interval when the information to be represented is numbers within a certain range. Integer[0, 10] is all the integers from 0 to 10 inclusive; Number[0, 10) is all the numbers from 0 inclusive to 10 exclusive. (The notation is that [ and ] mean that the end of the interval includes the end point; ( and ) mean that the end of the interval does not include the end point.)
+
+### HOW TO CODE WITH INTERVAL?
+
+To create a code using a interval, we need to follow the recipe:
+
+> ;; Countdown is Integer[0, 10]<br>
+> ;; interp. the number of seconds remaining to liftoff<br>
+> (define C1 10)  ; start<br>
+> (define C2 5)   ; middle<br>
+> (define C3 0)   ; end<br>
+> <br>
+> #;<br>
+> (define (fn-for-countdown cd)<br>
+>  (... cd))<br>
+
+> ;; Template rules used:<br>
+> ;;  - atomic non-distinct: Integer[0, 10]<br>
+
